@@ -27,13 +27,13 @@ git clone https://github.com/Nicholas-Nguyen8742/petco-scraper.git
 cd petco-scraper
 ```
 
-1. Use [nvm](https://github.com/nvm-sh/nvm) to install and use the correct Node.js version:
+2. Use [nvm](https://github.com/nvm-sh/nvm) to install and use the correct Node.js version:
 ```bash
 nvm install 22.3.0
 nvm use 22.3.0
 ```
 
-1. Install dependencies:
+3. Install dependencies:
 ```bash
 npm install
 ```
