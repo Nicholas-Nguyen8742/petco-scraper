@@ -1,0 +1,32 @@
+{
+  "name": "petco-scraper",
+  "version": "1.0.0",
+  "description": "Scraper that pulls metadata from petco love lost dashboard search",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "scrape": "node ./dist/scripts/scrape.js",
+    "match": "node ./dist/scripts/match.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Nicholas Nguyen",
+    "url": "https://github.com/Nicholas-Nguyen8742"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^4.20.0",
+    "axios": "^1.7.2",
+    "canvas": "^2.11.2",
+    "dotenv": "^16.4.5",
+    "puppeteer": "^22.11.0"
+  },
+  "engines": {
+    "node": "22.3.0"
+  }
+}
