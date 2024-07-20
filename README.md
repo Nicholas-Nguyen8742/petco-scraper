@@ -22,19 +22,21 @@ ___
 ## Installation
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/petco-love-lost-scraper.git
-   cd petco-love-lost-scraper
-  ```
+```bash
+git clone https://github.com/Nicholas-Nguyen8742/petco-scraper.git
+cd petco-scraper
+```
+
 1. Use [nvm](https://github.com/nvm-sh/nvm) to install and use the correct Node.js version:
-  ```bash
-  nvm install 22.3.0
-  nvm use 22.3.0
-  ```
+```bash
+nvm install 22.3.0
+nvm use 22.3.0
+```
+
 1. Install dependencies:
-  ```bash
-  npm i
-  ```
+```bash
+npm install
+```
 
 ___
 
